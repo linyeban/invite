@@ -1,0 +1,51 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body{ line-height: 1; overflow-x: hidden; -webkit-overflow-scrolling:touch; }
+
+html,body{
+	font-family: "Helvetica","Microsoft YaHei";
+	color: #fff;
+	font-size: 12px;
+}
+
+ul li{ list-style: none;}
+
+a{ color: #fff;}
+a:hover{ color: #FF8154;}
+body{ position: relative; padding: 10px;background:url("../images/mainBg.jpg") no-repeat; height: 100%; background-size:100% 100%;}
+.fullScreen{ min-height: 100vh; }
+.wel span{ margin-right: 10px; font-weight: bold; font-size: 14pt; }
+.header{ padding: 10px; border-bottom: 1px solid #fff; margin-bottom: 10px; position: relative;}
+.header ul li{margin-right: 20px; }
+.header ul li.active{border-bottom: none;}
+.header ul li.active>a{ background: #d79d89;}
+.header ul li.active>a:hover{ background: #ffc; color: #FF8154;}
+.hrefLink{ position: absolute; right: 10px; bottom: 10px;}
+.main{  margin: 0 auto;}
+h1{ margin:10px 0;}
+footer{ height: 100px; }
+.copyright{position: absolute; bottom: 5%; width: 80%; left: 10%; text-align: center;}
+.copyright li{ display: inline-block; padding-right: 10px; }
+
+.btn{ background: transparent; margin-right: 10px; border-color: #9E9E9E; color: #fff;}
+.btn:hover{ background: #ffc; border-color: #9E9E9E; color: #FF8154;}

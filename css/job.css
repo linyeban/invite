@@ -1,0 +1,21 @@
+.main{ margin:10px auto; display: block; position: relative; }
+.listjob.title{ font-weight: bold; font-size: 14px; color: #FF8154; border-bottom: 1px solid #FF8154;}
+.listjob.jobs{ border-bottom: 1px dotted #ccc;}
+.listjob{ margin-bottom: 10px; position: relative;}
+.main div{ text-align: center;}
+.main div img{ border-radius: 50%; width: 100px;}
+.listjob li{ display: inline-block; padding: 10px 0; text-align: left;}
+
+.listjob li:nth-child(even){ width: 12%;}
+.listjob li:nth-child(odd){  width: 20%;}
+
+.listjobs li:nth-child(even){ width: 10%;}
+.listjobs li:nth-child(odd){  width: 16%;}
+
+/*addjob.php*/
+.form-group select{ color: #000;}
+#demand input,#welfare input{ margin-bottom: 10px; }
+#sex,#addWelfare,#addDemand{cursor: pointer;}
+#nameTip{ color:red; display: none;}
+
+

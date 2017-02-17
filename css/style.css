@@ -1,0 +1,93 @@
+.top,.first,.first div{margin: 10px 0;}
+.top h3 span{ float: right;}
+.first{ position: relative; }
+.lump{ border:1px solid #9E9E9E; padding: 15px; margin: 10px 0; }
+.welfare li{background: transparent; margin-right: 10px; border:1px solid #9E9E9E; border-radius: 5px; padding: 10px; display: inline-block;}
+.content h4{ color: #FF8154;}
+.content li{ margin-bottom:10px; }
+
+.companyDetail{  position: relative; margin-top: 10px;}
+.info{background: #d79d89; padding: 10px;}
+.info p{ line-height: 1.5;}
+
+.list a {
+    -webkit-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -moz-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -ms-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    -o-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+}
+.demo{ position: relative;}
+
+/* List styles */
+.list{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;    
+    margin-top: 20%;
+}
+
+.list a {    
+    display: block;
+    font-size: 12pt;
+}
+
+.list a:hover {
+    text-indent: 20px;
+}
+
+.list dt, .list dd {
+    text-indent: 10px;
+    line-height: 55px;
+    background: #E0FBAC;
+    margin: 0;
+    height: 55px;
+    color: #fff;
+}
+
+.list dt {
+    -webkit-transform: translateZ(0.3px);
+    -moz-transform: translateZ(0.3px);
+    -ms-transform: translateZ(0.3px);
+    -o-transform: translateZ(0.3px);
+    transform: translateZ(0.3px);
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+}
+
+.list dd {
+    border-top: 1px dashed rgba(255,255,255,0.3);
+    line-height: 35px;
+    font-size: 11px;
+    height: 35px;
+    margin: 0;
+}
+
+/* UI */
+.toggle {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    letter-spacing: -1px;
+    margin-top: -20px;
+    position: absolute;
+    bottom: -55%;
+    left: 45%;
+}
+/* Individual styles */
+.sashimi dt, .sashimi dd, .sashimi a { background: #d79d89; }
+.sashimi a:hover { color: #FF8154; background: #ffc; }
+.sashimi,.info{
+    -webkit-transform: perspective(1200px) rotateY(-40deg) !important;
+    -moz-transform: perspective(1200px) rotateY(-40deg) !important;
+    -ms-transform: perspective(1200px) rotateY(-40deg) !important;
+    -o-transform: perspective(1200px) rotateY(-40deg) !important;
+    transform: perspective(1200px) rotateY(-40deg) !important;
+
+    -webkit-transform-origin: -10% 25%;
+    -moz-transform-origin: -10% 25%;
+    -ms-transform-origin: -10% 25%;
+    -o-transform-origin: -10% 25%;
+    transform-origin: -10% 25%;
+}

@@ -1,0 +1,11 @@
+
+.main{ position:relative; color: #fff; margin: 0 auto;}
+
+.menu>li{ display: inline-block; position: relative; width: 33%; vertical-align: top; text-align: left;}
+.menu>li>a{ color: #fff; font-size: 1.5rem; line-height: 2;}
+
+.second_nav{ position: relative; margin-left: 24px;}
+.second_nav li a{ opacity: 0.5; font-size: 1.2rem; line-height: 2;}
+.current{ display: block;}
+
+.search .inputSearch{ width: 50%; margin: 50px auto; }
